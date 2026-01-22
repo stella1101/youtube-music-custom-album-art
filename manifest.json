@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Music Custom Album Art",
+  "version": "0.1.0",
+  "description": "Replace album art in YouTube Music with user-defined images (client-side DOM only).",
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
